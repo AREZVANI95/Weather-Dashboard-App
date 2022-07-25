@@ -13,7 +13,7 @@ var img = document.querySelector('.image')
 //Function for the search button to find the information for which the user inputted.
 searchBtn.addEventListener('click', function () {
     //Fetch city from the weather api
-    fetch('http://api.openweathermap.org/data/2.5/weather?q=' + searchBar.value + '&appid=fabd207c617e8fbed311e9e8c0946ea9')
+    fetch('http://api.openweathermap.org/data/2.5/weather?q='+searchBar.value+'&appid=fabd207c617e8fbed311e9e8c0946ea9')
         .then(response => response.json())
         .then(data => {
             var nameValue = data['name'];
