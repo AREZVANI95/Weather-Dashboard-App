@@ -7,3 +7,69 @@
 html {
     background-color: wheat;
 }
+
+h1 {
+    background-color: hsla(285, 73%, 46%, 0.77);
+    background-image:
+        radial-gradient(at 53% 51%, hsla(279, 97%, 60%, 1) 0px, transparent 40%),
+        radial-gradient(at 88% 20%, hsla(80, 0%, 0%, 1) 0px, transparent 40%),
+        radial-gradient(at 13% 87%, hsla(36, 97%, 60%, 1) 0px, transparent 40%);
+    color: azure;
+    font-size: 45px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 0px 15px 0px;
+    margin: 3px;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.8);
+}
+
+h3 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 15px 0px 5px 0px;
+}
+
+input {
+    margin: 15px 0px 15px 0px;
+    padding: 10px 5px 10px 0;
+    max-width: 55%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button {
+    padding: 5px;
+    width: 55%;
+}
+
+ul { 
+    margin-top: 20px;
+    max-width: 25%;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#display-city{ 
+    border: 3px solid black;
+    margin-top: 22px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.8);
+    background-color: blanchedalmond;
+}
+
+#search-container {
+    background-color: wheat;
+}
+
+#container-form {
+    display: flex;
+    background-color: wheat;
+}
