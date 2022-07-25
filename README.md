@@ -9,6 +9,7 @@ All your Weather needs are right here in this single website, all you need is to
 
 ![Web Searching](https://github.com/AREZVANI95/Weather-Dashboard-App/blob/main/assets/img/Weather_Dash_Searching_City.PNG)
 
+![Web Searching Denied](https://github.com/AREZVANI95/Weather-Dashboard-App/blob/main/assets/img/Weather_Dash_Searching_City.PNG)
 
 ## 🔗 Links
 [![Web Link](https://img.shields.io/badge/Weather_dashboard-000?style=for-the-badge&logo=square&logoColor=white)](https://arezvani95.github.io/Weather-Dashboard-App/)
