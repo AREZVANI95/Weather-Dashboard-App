@@ -13,6 +13,33 @@
 
 <body>
 
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div id="container-form">
+
+        <section class="col-lg-4">
+            <h3>Search for a City:</h3>
+            <input type="text" class="mb-3 form-control" id="input-form" placeholder="San Diego">
+            <button type="button" class="btn btn-primary btn-lg" id="search-button">Search</button>
+        </section>
+
+        <section id="display-city">
+            <ul>
+                <li class="location"></li>
+                <li class="temperature"></li>
+                <li class="wind"></li>
+                <li class="humidity"></li>
+                <li class="description"></li>
+                <li class="image">
+                    <image class="image" src=""></image>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <section id="upcoming-forecast"></section>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
